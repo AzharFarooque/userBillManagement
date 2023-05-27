@@ -1,0 +1,20 @@
+					-----------------------------------------
+					|    DiscountCalculatorServiceImpl      |
+					-----------------------------------------
+					| - EMPLOYEE_DISCOUNT_PERCENTAGE: double |
+					| - AFFILIATE_DISCOUNT_PERCENTAGE: double |
+					| - CUSTOMER_DISCOUNT_PERCENTAGE: double |
+					| - DISCOUNT_PER_HUNDRED: double         |
+					| - GROCERY_DISCOUNT_PERCENTAGE: double  |
+					-----------------------------------------
+					| + calculateNetPayableAmount(user: User): double |
+					| - amountBasedDiscount(amount: double): double   |
+					-----------------------------------------
+
+In the above diagram:
+
+The class DiscountCalculatorServiceImpl is represented inside a box.
+The private fields EMPLOYEE_DISCOUNT_PERCENTAGE, AFFILIATE_DISCOUNT_PERCENTAGE, CUSTOMER_DISCOUNT_PERCENTAGE, DISCOUNT_PER_HUNDRED, and GROCERY_DISCOUNT_PERCENTAGE are indicated with a - symbol to denote their visibility as private.
+The public method calculateNetPayableAmount(user: User): double is represented with + symbol to denote its visibility as public. It takes a User object as a parameter and returns a double representing the net payable amount.
+The private method amountBasedDiscount(amount: double): double is indicated with a - symbol to denote its visibility as private. It takes a double amount as a parameter and returns a double representing the discount based on the amount.
+This updated diagram reflects the additional implementation details of the DiscountCalculatorServiceImpl class, including the constants for discount percentages, the method for calculating the amount-based discount, and the logic for calculating the net payable amount based on the user's information and bill details.

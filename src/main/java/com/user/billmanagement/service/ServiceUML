@@ -1,0 +1,11 @@
+					------------------------------------
+					|   DiscountCalculatorService      |
+					------------------------------------
+					| + calculateNetPayableAmount(user: User): double |
+					------------------------------------
+					
+In the above diagram:
+
+The interface DiscountCalculatorService is represented inside a box.
+The method calculateNetPayableAmount(user: User): double is represented with + symbol to denote its visibility as public. It takes a User object as a parameter and returns a double representing the net payable amount.
+The diagram represents the structure and interface of the DiscountCalculatorService interface, defining a single method for calculating the net payable amount based on the provided User object.

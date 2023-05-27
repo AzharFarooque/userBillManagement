@@ -1,0 +1,16 @@
+				------------------------------------
+				| DiscountCalculatorController     |
+				------------------------------------
+				| - discountService: DiscountCalculatorService |
+				------------------------------------
+				| + DiscountCalculatorController() |
+				| + calculateNetPayableAmount(user: User): ResponseEntity<String> |
+				------------------------------------
+
+
+In the above diagram:
+
+The class DiscountCalculatorController is represented inside a box.
+The private field discountService of type DiscountCalculatorService is indicated with a - symbol to denote its visibility as private.
+The constructor DiscountCalculatorController() and the method calculateNetPayableAmount(user: User): ResponseEntity<String> are represented with + symbols to denote their visibility as public.
+The method calculateNetPayableAmount(user: User): ResponseEntity<String> takes a parameter user of type User and returns an object of ResponseEntity<String>.
