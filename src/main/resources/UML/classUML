@@ -1,0 +1,45 @@
+					------------------------------------
+					|               Bill               |
+					------------------------------------
+					| - amount: double                  |
+					| - item: String                    |
+					------------------------------------
+					| + getItem(): String               |
+					| + setItem(item: String): void     |
+					| + getAmount(): double             |
+					| + setAmount(amount: double): void |
+					------------------------------------
+
+In the above diagram:
+
+The class Bill is represented inside a box.
+The private fields amount and item are indicated with a - symbol to denote their visibility as private.
+The getter and setter methods for item and amount are represented with + symbols to denote their visibility as public.
+The getter methods return the respective attribute types, and the setter methods take parameters of the corresponding attribute types.
+This diagram illustrates the structure and interface of the Bill class, including its attributes and their access methods.
+
+------------------------------------------------------------
+
+					------------------------------------
+					|               User               |
+					------------------------------------
+					| - membershipDuration: Integer    |
+					| - userType: String               |
+					| - bill: Bill                    |
+					------------------------------------
+					| + getBill(): Bill                |
+					| + setBill(bill: Bill): void      |
+					| + getUserType(): String          |
+					| + setUserType(userType: String): void |
+					| + getMembershipDuration(): Integer |
+					| + setMembershipDuration(membershipDuration: Integer): void |
+					------------------------------------
+				
+In the above diagram:
+
+The class User is represented inside a box.
+The userType can be customer , employee ,affiliate
+The private fields membershipDuration, userType, and bill are indicated with a - symbol to denote their visibility as private.
+The getter and setter methods for bill, userType, and membershipDuration are represented with + symbols to denote their visibility as public.
+The getter methods return the respective attribute types, and the setter methods take parameters of the corresponding attribute types.
+This updated diagram includes the Bill attribute in the User class, reflecting the association between the User and Bill classes. The User class has a composition relationship with the Bill class, as it contains a Bill object as one of its attributes.
