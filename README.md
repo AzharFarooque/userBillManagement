@@ -18,4 +18,7 @@
 ------------------------------------------------------
 
 #Build command : mvn clean install
+#Run command : mvn spring-boot:run
 #Sonar : sonar:sonar
+#Eclipse Run Alt + Shift + X,T or right click on testClass go to Run as and select JUnit Test Cases
+#Eclipse code coverage Alt + Shift + E,T or right click on testClass go to Coverage as and select JUnit Test Cases
